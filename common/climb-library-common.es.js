@@ -55831,6 +55831,6 @@ usage: app.provide(ID_INJECTION_KEY, {
   Rd.use(HZ);
   Rd.use(bne);
   Rd.mount("#climb-common-app");
-  window.config.app = Rd;
+  window.apper = Rd;
 });
 export default gne();

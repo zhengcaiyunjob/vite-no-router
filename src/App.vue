@@ -1,10 +1,18 @@
-<script setup>
+<script>
 import HelloWorld from './components/HelloWorld.vue';
+export default {
+  data() {
+    return{
+
+    }
+  },
+  components: {
+    HelloWorld
+  }
+}
 </script>
 
 <template>
-  <router-link to="/oms/cashFlow/moneyThaw">Home</router-link>
-  <router-link to="/oms/cashFlow/statusQuery">about</router-link>
   <router-view></router-view>
 </template>
 
